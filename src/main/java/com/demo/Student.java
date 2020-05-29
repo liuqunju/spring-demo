@@ -11,8 +11,10 @@ import org.springframework.context.ApplicationContextAware;
  * @Author: yingjie.liu
  * @Date: 2020/05/23/16:59
  */
+
 public class Student implements BeanNameAware, BeanFactoryAware, ApplicationContextAware, InitializingBean,
         DisposableBean {
+
 
     private String name;
 
